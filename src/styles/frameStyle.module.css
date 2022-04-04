@@ -1,0 +1,24 @@
+/*Marco de la ventana*/
+.windowFrame{
+	position: absolute;
+	z-index: 1000;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 1em;
+	min-width: 2em;
+	background-color: var(--main-md-color);
+	border-radius: var(--window-bora-main);
+	box-shadow: var(--window-box-shadow);
+	overflow: hidden;
+}
+
+/*Barrita superior de la ventana*/
+.barTopWindowFrame{
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 1em;
+	width: 100%;
+	background-color: var(--main-dark-color);
+	cursor: move;
+}
