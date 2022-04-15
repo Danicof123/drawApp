@@ -1,0 +1,21 @@
+:root{
+	--chevron-00-animation: loopMoveChevron 1s ease-in-out infinite;
+	--rotateIcon-00-animation: rotateIcon 3s linear infinite;
+}
+/*Animacion chevron down*/
+@keyframes loopMoveChevron {
+  0% {top: 1px}
+  25% {top: 3px}
+	50% {top: 0}
+  75% {top: -3px}
+  100% {top: 0px}
+}
+
+@keyframes rotateIcon {
+  0% {
+		transform: rotateZ(0);
+	}
+  100% {
+		transform: rotateZ(360deg);
+	}
+}

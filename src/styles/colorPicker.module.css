@@ -1,0 +1,57 @@
+.contenedorPicker{
+	display: flex;
+	flex-direction: column;
+	max-width: calc(150px + 16px);
+	padding: 8px;
+}
+
+/* Descripciones */
+.colorDescription{
+	display: flex;
+	margin-top: 16px;
+}
+.colorDescription label{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	font-size: .8rem;
+	color: #fff;
+}
+.colorDescription input{
+	width: inherit;
+	margin-left: 4px;
+	background-color: var(--green-00-color);
+	color: #fff;
+	border: none;
+	outline: none;
+}
+/* Color de muestra*/
+.sampleColor{
+	height: 1rem;
+	width: 2rem;
+	background-color: palevioletred;
+	border-radius: var(--window-bora-main);
+	margin-left: 4px;
+}
+
+
+/* Botones */
+.buttonsPicker{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 1rem;
+}
+
+.buttonsPicker button{
+	margin-left: 4px;
+	cursor: pointer;
+	color: var(--button-color-normal);
+	background-color: var(--green-00-color);
+	border-radius: var(--window-bora-main);
+	border: 1px solid var(--dark-01-color);
+}
+
+.buttonsPicker button:hover{
+	background-color: var(--button-bg-hover);
+	color: var(--button-color-hover);
+}

@@ -10,11 +10,11 @@
 	align-items: center;
 	padding: .25em;
 	font-size: 1.5rem;
-	color: var(--green-color);
+	color: var(--ligth-02-color);
 	cursor: pointer;
 }
 
 .item:hover, .item.active{
-	color: var(--hover-brigth-color);
+	color: var(--ligth-hover-color);
 	background-color: var(--black-md-color);
 }

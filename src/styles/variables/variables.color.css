@@ -7,3 +7,26 @@
 	--green-color: #ccc;
 	--hover-brigth-color: #fff;
 }
+
+
+/* Reconfiguracion de colores */
+:root{
+	--dark-00-color: #1a1a1a;
+	--dark-01-color: #2a2a2a;
+	--dark-02-color: #3b3b3b;
+
+	--green-00-color: #4d4d4d;
+	--green-01-color: #5e5e5e;
+	--green-02-color: #6f6f6f;
+
+	--ligth-00-color: #727272;
+	--ligth-01-color: #959595;
+	--ligth-02-color: #adadad;
+
+	--ligth-hover-color: #fff;
+
+	--button-color-normal: #aaa;
+	--button-color-hover: #fff;
+	--button-bg-hover: #3b3b3b;
+
+}

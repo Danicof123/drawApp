@@ -19,16 +19,17 @@ const usePosition = (initialPosition, element, activeMove) => {
 	
 	//Mueve en tiempo real el elemento
 	const handleMove = (e) => {
-		setPosition(moveAt(e.clientX, e.clientY))
+		e.preventDefault();
+		setPosition(moveAt(e.pageX, e.pageY))
 	}
 
 	//Funcion que activa los movimientos
 	const handleActiveMove = (e) => {
 		if(e.target === activeMove.current){
-				shift.x = e.clientX - activeMove.current.getBoundingClientRect().left;
-				shift.y = e.clientY - activeMove.current.getBoundingClientRect().top;
+				shift.x = e.pageX - activeMove.current.getBoundingClientRect().left;
+				shift.y = e.pageY - activeMove.current.getBoundingClientRect().top;
 
-			setPosition(moveAt(e.cleintX, e.clientY))
+			setPosition(moveAt(e.pageX, e.pageY))
 			document.addEventListener('mousemove', handleMove)
 		}
 	}

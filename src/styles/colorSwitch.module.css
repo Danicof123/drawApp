@@ -1,0 +1,40 @@
+.colorSwitch{
+	display: flex;
+	position: relative;
+	padding: 4px;
+	height: 4rem;
+}
+
+.colorItem{
+	position: absolute;
+	height: 2rem;
+	width: 2rem;
+	border-radius: 3px;
+	cursor: pointer;
+
+}
+
+.colorPrimary{
+	z-index: 10;
+	top: 8px;
+	left: 8px;
+}
+
+.colorSecond{
+	z-index: 5;
+	right: 8px;
+	bottom: 8px;
+}
+
+.switchTool{
+	position: absolute;
+	right: 12px;
+	color: var(--ligth-02-color);
+	cursor: pointer;
+	transition: animation 2s ease-in-out;
+}
+
+.switchTool:hover{
+	color: var(--ligth-hover-color);
+	animation: var(--rotateIcon-00-animation);
+}

@@ -1,0 +1,64 @@
+.navbarTop{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	z-index: 2000;
+	display: flex;
+	align-items: center;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	background-color: var(--dark-01-color)
+}
+
+.navbarTop *{
+	user-select: none;
+}
+
+/*Herramienta activa*/
+.toolActive{
+	display: flex;
+	align-items: center;
+	margin-right: 8px;
+	padding: 8px;
+	height: 100%;
+	cursor: pointer;
+}
+
+.toolActive *:not(:last-child){
+	margin-right: 4px;
+}
+
+.toolActive:hover{
+	background-color: var(--dark-00-color);
+}
+
+.chevron{
+	position: relative;
+}
+
+.toolActive:hover .chevron{
+	animation: var(--chevron-00-animation);
+}
+
+/* input de opcion de herramienta */
+.inputToolOptions{
+	display: flex;
+	align-items: center;
+	margin-right: 8px;
+}
+
+.inputToolOptions input {
+	margin-left: 4px;
+	width: 2rem;
+	background-color: var(--green-00-color);
+	color: #fff;
+	border: none;
+	outline: none;
+}
+
+.inputToolOptions input::-webkit-inner-spin-button{
+	display: none;
+}

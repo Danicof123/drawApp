@@ -1,0 +1,4 @@
+:root{
+	--zIndex-modal-normal: 1000;
+	--zIndex-modal-active: 1010;
+}

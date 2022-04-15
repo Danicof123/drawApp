@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import navcss from "../styles/navbar.module.css";
 import logo from '../assets/images/logo.svg'
 import { MdExpandMore, MdPerson } from "react-icons/md";

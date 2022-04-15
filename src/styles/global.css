@@ -1,9 +1,12 @@
 @import './variables/variables.color.css';
 @import './variables/variables.effects.css';
+@import './variables/variables.zIndex.css';
+@import './animations/hover.animations.css';
 
 *,*::after,*::before{
 	box-sizing: inherit;
 	scroll-behavior: inherit;
+	user-select: inherit;
 }
 
 html{
